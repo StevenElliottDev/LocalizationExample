@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">Próximo</string>
+    <string name="previous">Previo</string>
+    <string name="message">Hola en español</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="update_locale_english">Actualizar a ingles</string>
+    <string name="update_locale_spanish">Actualizar al español</string>
+    <string name="update_locale_french">Actualizar a francés</string>
+</resources>

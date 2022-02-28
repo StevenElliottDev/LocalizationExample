@@ -1,12 +1,16 @@
 <resources>
-    <string name="app_name">LocalizationExample</string>
+    <string name="app_name" translatable="false">LocalizationExample</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="xml_fragment_label" translatable="false">XML Fragment</string>
+    <string name="compose_fragment_label" translatable="false">Compose Fragment</string>
+
+
+
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment</string>
+    <string name="message">Hello in English</string>
+    <string name="update_locale_english">Update to English</string>
+    <string name="update_locale_spanish">Update to Spanish</string>
+    <string name="update_locale_french">Update to French</string>
 </resources>

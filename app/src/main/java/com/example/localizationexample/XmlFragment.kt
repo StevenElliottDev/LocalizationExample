@@ -33,7 +33,7 @@ class XmlFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFirst.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_XMLFragment_to_ComposeFragment)
         }
     }
 
