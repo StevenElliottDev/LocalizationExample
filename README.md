@@ -6,6 +6,9 @@ Localization Example to demo capabilities
 - Locale can be independently changed to Spanish, English, or French
 - French demostrates a non supported locale
 - Once locale is selected it is presisted
+- Localization files setup for Spanish and English. 
+- XmlFragment demonstrates localization using XML layouts
+- ComposeFragment decomstrates localization using Compose layouts
 
 
 One difficulty is to manage changing the locale during runtime. This requires attaching a new base context onto the activity that is running.
