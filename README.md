@@ -11,9 +11,9 @@ Localization Example to demo capabilities
 - ComposeFragment decomstrates localization using Compose layouts
 
 
-One difficulty is to manage changing the locale during runtime. This requires attaching a new base context onto the activity that is running.
+One difficulty is to manage/changing the locale in app. This requires attaching a new base context with the correct configiration onto the application that is running.
 This means two things: 
-1. This will likley be one of the more error prone errors across version of Android
+1. This will be one of the more error prone errors across version of Android as the way the base context configiration is managed has evolved over time. 
 2. The changing of locale is a configuration change so activity lifecycle is restarted
 
 The app uses [locale-helper-android](https://github.com/zeugma-solutions/locale-helper-android) for managing the locale at runtime
